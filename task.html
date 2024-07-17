@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TODOLIST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" >
+    <link rel="stylesheet" href="task.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <div class="logo">
+                
+                "<i class="fa-solid fa-clipboard-list"></i>"
+                <p>To Do List</p>
+            </div>
+            <ul>
+                <a href="todo.html">
+                    <li>Home</li>
+                </a>
+                <a href="main">
+                <li>Contacts</li>></a>
+                <a href="main">
+                    <li>Sign In</li>
+                </a>
+            </ul>
+        </nav>
+    </header>
+<div class="mid">
+    <div class="input-container">
+        <input type="text" id="takeinput" placeholder="Add Task">
+        <button id="addtaskButton">Add Task</button>
+    </div>
+    <div class="filter-container">
+        <button id="filter-button" data-filter="all">Add Task</button>
+        <button id="filter-button" data-filter="completed">Completed</button>
+        <button id="filter-button" data-filter="incompleted">InCompleted</button>
+
+
+    </div>
+</div>
+</div>
+    <ul id="task-list"></ul>
+    <script src="todoo.js"></script>
+
+    
+</body>
+</html>

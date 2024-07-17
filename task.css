@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:plum;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    width:100%;
+    position:sticky;
+    top :0;
+    z-index:1;
+    
+}
+header.container{
+    height:10vh;
+    width:100%;
+    margin:0 auto;
+    padding: 0 50px;
+}
+.logo{
+    display:flex;
+    align-items:canter;
+}
+.logo p{
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight: 500;
+    cursor:default;
+
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+ul{
+    list-style: none;
+    display:flex;
+    gap:14px;
+}
+li{
+    font-size: 20px;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:14px;
+}
+.mid{
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    padding : 20px;
+    margin:30px;
+    text-align: center;
+    max-width: 100%;
+}
+input.container,.filter-conatiner{
+    margin-bottom: 20px;
+    padding-left: 200px;
+}
+input{
+    padding:200px;
+    width:70%;
+    font-size:16px;
+}
+button{
+    padding:10px;
+    font-size:16px;
+    cursor:pointer;
+}
+ul{
+    list-style-type:none;
+    padding:0;
+}
+li{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f9f9f9;
+    padding:10px;
+    margin:5px;
+    border: 2px solid #ddd;
+
+
+    
+}
+li.completed{
+    text-decoration: line-through;
+    color:#888;
+
+}
+.filter-button .active{
+    background-color: gray;
+    
+}
